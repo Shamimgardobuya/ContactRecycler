@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
     }
     fun displayContacts(){
-        var contact1=Contact("Alby","0733488127","alby@gmail.com","348Kilian","https://images.pexels.com/photos/935985/pexels-photo-935985.jpeg?auto=compress&cs=tinysrgb&w=400")
+        var contact1=Contact("Albyss","0733488127","alby@gmail.com","348Kilian","https://images.pexels.com/photos/935985/pexels-photo-935985.jpeg?auto=compress&cs=tinysrgb&w=400")
         var contact2=Contact("Bizwa","0784349833","bizwa@gmail.com","Patel34","https://images.pexels.com/photos/3746214/pexels-photo-3746214.jpeg?auto=compress&cs=tinysrgb&w=400")
         var contacct3=Contact("Maggie","079175652","anab@gmail.com","Mel56","https://images.pexels.com/photos/813940/pexels-photo-813940.jpeg?auto=compress&cs=tinysrgb&w=400")
         var contact4=Contact("Lynne","0783847775","lynne@gmail.com","NMH908","https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
