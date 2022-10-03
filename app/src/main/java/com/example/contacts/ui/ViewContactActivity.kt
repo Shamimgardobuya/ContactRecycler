@@ -1,4 +1,4 @@
-package com.example.contacts
+package com.example.contacts.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -32,10 +32,6 @@ class viewContactActivity : AppCompatActivity() {
 
 
         Toast.makeText(this,"$name: $email",Toast.LENGTH_LONG).show()
-        Toast.makeText(this,name,Toast.LENGTH_LONG).show()
-        Toast.makeText(this,phone,Toast.LENGTH_LONG).show()
-        Toast.makeText(this,addressing,Toast.LENGTH_LONG).show()
-
 
 
         binding.tvUserName.text=name
@@ -45,7 +41,6 @@ class viewContactActivity : AppCompatActivity() {
 
 
 //        binding.
-        Picasso.get().load(intent.getStringExtra("IMAGE")).into(image)
-        
+
     }
     }
